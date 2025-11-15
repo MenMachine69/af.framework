@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="AF3 unterstützt den Datenbankzugriff via ORM (IConnection, Connections&lt;TConnection, TCommand, TParameter, TTRansaction&gt;) aber auch OHNE ORM (IDatabaseConnection, DatabaseConnection).&#xD;&#xA; ">
+    <Position X="2.933" Y="7.943" Height="0.604" Width="6.073" />
+  </Comment>
+  <Class Name="AF.DATA.Database">
+    <Position X="6.25" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIIAIAiAArMAACMAgBEAkIQAQEBEAlEAgABACJFBBKA=</HashCode>
+      <FileName>data\Database.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.DATA.DatabaseConnection">
+    <Position X="3" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAABAAACAAABAAAIAAQABEAAAAAAAAAABBAAA=</HashCode>
+      <FileName>data\DatabaseConnection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.DATA.Connection&lt;TConnection, TCommand, TParameter, TTransaction&gt;">
+    <Position X="11.75" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BIjAhaghOHAAQRiEhBUUQAQAQAlQABECAAgAQAGBNIQ=</HashCode>
+      <FileName>data\Connection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.DATA.Credentials">
+    <Position X="0.5" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>data\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF.DATA.Configuration">
+    <Position X="0.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAJAgCAAAAAAAAAAAAAAAEAAAECEAEAAACEAAAABAAA=</HashCode>
+      <FileName>data\Configuration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.DATA.Translator">
+    <Position X="9.25" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAMAAAAARAAAAAAAAAAAgIAAAAAAAAAAERAABAA=</HashCode>
+      <FileName>data\Translator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AF.DATA.IConnection">
+    <Position X="11.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIgAgagBMDAAQBiEhBUUQAQAQAFQAAECAAAAQAEAJIQ=</HashCode>
+      <FileName>data\IConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.DATA.IConfiguration">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAJAgCAAAAAAAAAAAAAAAEAAAECEAEAAACAAAAABAAA=</HashCode>
+      <FileName>data\IConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.DATA.IDatabase">
+    <Position X="6.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAiAAAIAAAEAgAEAEAQAAAAAAEEAgAAACJEBBCA=</HashCode>
+      <FileName>data\IDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.DATA.IDatabaseConnection">
+    <Position X="3" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAABAAACAAABAAAIAAQABEAAAAAAAAAABBAAA=</HashCode>
+      <FileName>data\IDatabaseConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.DATA.ITranslator">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMAAAAAQAAAAACAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>data\ITranslator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

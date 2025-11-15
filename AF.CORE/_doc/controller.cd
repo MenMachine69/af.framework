@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Basis-Klassen der 'Base' Controller&#xD;&#xA;Die 'Base'-Controller (ohne UI-Bezug) erben von diesen Klassen. Der Name der 'Base'-Controller ist IMMER! ModelNameController (z.B. BenutzerController)">
+    <Position X="8.74" Y="0.5" Height="0.76" Width="5.763" />
+  </Comment>
+  <Class Name="AF.MVC.IControllerUIEx">
+    <Position X="5.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvc\IControllerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF.MVC.Controller&lt;TModel&gt;">
+    <Position X="8.75" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>iAAEEICBAAAAoFAEWIkAAAYhAAUBAFwgkBAAEFBAICA=</HashCode>
+      <FileName>mvc\Controller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.MVC.ControllerTable&lt;TModel&gt;">
+    <Position X="11.75" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAEAAAAAAgAAEAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>mvc\ControllerTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AF.MVC.IController">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>iAAEgICBAAAAIBAEEIAAAAAhAAEBAFQAkBAAEBBAACA=</HashCode>
+      <FileName>mvc\IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.MVC.IController&lt;TModel&gt;">
+    <Position X="0.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAABAAEAgAAAAgAAEAAEAAAAAAEAAAAAA=</HashCode>
+      <FileName>mvc\IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.MVC.IControllerTable&lt;TModel&gt;">
+    <Position X="3.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mvc\IControllerTable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.MVC.IControllerUI">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAACAAAAAAEAAAAAAAAAAAgAAAEAAAAAAAE=</HashCode>
+      <FileName>mvc\IControllerUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.MVC.IControllerUI&lt;TModel&gt;">
+    <Position X="3.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAIAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>mvc\IControllerUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

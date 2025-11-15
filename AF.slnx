@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/apps/" />
+  <Folder Name="/templates/" />
+  <Project Path="AF.CORE/AF.CORE.csproj" />
+  <Project Path="AF.DATA.FIREBIRD/AF.DATA.FIREBIRD.csproj" />
+  <Project Path="AF.DATA.POSTGRE/AF.DATA.POSTGRE.csproj" />
+  <Project Path="AF.WINFORMS.DX/AF.WINFORMS.DX.csproj" />
+  <Project Path="Flee/Flee.csproj" />
+</Solution>

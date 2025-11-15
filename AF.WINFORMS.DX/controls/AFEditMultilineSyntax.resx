@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="textSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="textSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="csParser1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>360, 17</value>
+  </metadata>
+  <data name="csParser1.XmlScheme" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;AlterNET Software&lt;/Author&gt;
+  &lt;Copyright&gt;Copyright (c) 2016-2023 Alternet Software&lt;/Copyright&gt;
+  &lt;FileType&gt;c#&lt;/FileType&gt;
+  &lt;Version&gt;1.5&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;Desc&gt;Identifiers&lt;/Desc&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;Desc&gt;Numbers&lt;/Desc&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;Desc&gt;ResWords&lt;/Desc&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;Desc&gt;Comments&lt;/Desc&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;xmlcomments&lt;/Name&gt;
+      &lt;Desc&gt;XML Comments&lt;/Desc&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;symbols&lt;/Name&gt;
+      &lt;Desc&gt;Symbols&lt;/Desc&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;Desc&gt;WhiteSpace&lt;/Desc&gt;
+      &lt;ForeColor&gt;Teal&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;Desc&gt;Strings&lt;/Desc&gt;
+      &lt;ForeColor&gt;Maroon&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;Desc&gt;Directives&lt;/Desc&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;htmlparams&lt;/Name&gt;
+      &lt;Desc&gt;HTML Params&lt;/Desc&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;syntax errors&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;code snippets&lt;/Name&gt;
+      &lt;Desc&gt;Code Snippets&lt;/Desc&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:255:231:160&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;Types&lt;/Name&gt;
+      &lt;ForeColor&gt;255:49:145:179&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;Warnings&lt;/Name&gt;
+      &lt;ForeColor&gt;Navy&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;XmlParams&lt;/Name&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;Methods&lt;/Name&gt;
+      &lt;Desc&gt;Methods Color&lt;/Desc&gt;
+      &lt;ForeColor&gt;SaddleBrown&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;reswordscontrol&lt;/Name&gt;
+      &lt;Desc&gt;ResWordsControl&lt;/Desc&gt;
+      &lt;ForeColor&gt;Purple&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;ExcludedCode&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;localsname&lt;/Name&gt;
+      &lt;Desc&gt;LocalsName&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:31:55:127&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;linenumbers&lt;/Name&gt;
+      &lt;Desc&gt;Line Numbers&lt;/Desc&gt;
+      &lt;ForeColor&gt;Teal&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;hypertext&lt;/Name&gt;
+      &lt;Desc&gt;HyperText&lt;/Desc&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+      &lt;FontStyle&gt;Underline&lt;/FontStyle&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;spelling&lt;/Name&gt;
+      &lt;Desc&gt;Misspelled Words&lt;/Desc&gt;
+      &lt;ForeColor&gt;Navy&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;references&lt;/Name&gt;
+      &lt;Desc&gt;References Highlight Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:226:230:214&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;search results&lt;/Name&gt;
+      &lt;Desc&gt;Search Results Highlight Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:246:185:77&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;selected words&lt;/Name&gt;
+      &lt;Desc&gt;Selected Words Highlight Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:224:225:222&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;windowcolor&lt;/Name&gt;
+      &lt;Desc&gt;Window Color&lt;/Desc&gt;
+      &lt;BackColor&gt;Window&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;bracematching&lt;/Name&gt;
+      &lt;Desc&gt;Brace Matching&lt;/Desc&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+      &lt;BackColor&gt;LightGray&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;gutterpencolor&lt;/Name&gt;
+      &lt;Desc&gt;Gutter Pen Color&lt;/Desc&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+      &lt;BackColor&gt;Control&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;linemodificatorchanged&lt;/Name&gt;
+      &lt;Desc&gt;Line Modificator Changed&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:255:216:0&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;linemodificatorsaved&lt;/Name&gt;
+      &lt;Desc&gt;Line Modificator Saved&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:21:194:60&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;lineseparator&lt;/Name&gt;
+      &lt;Desc&gt;Line Separator&lt;/Desc&gt;
+      &lt;ForeColor&gt;ControlLight&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;lineseparatorbackcolorinternalname&lt;/Name&gt;
+      &lt;Desc&gt;Line Back Color Separator&lt;/Desc&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;codeoutlinepencolor&lt;/Name&gt;
+      &lt;Desc&gt;Code Outline Pen Color&lt;/Desc&gt;
+      &lt;ForeColor&gt;DarkGray&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;collapsedlinecolor&lt;/Name&gt;
+      &lt;Desc&gt;Collapsed Line Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:230:243:255&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;activeselectioncolor&lt;/Name&gt;
+      &lt;Desc&gt;Active Selection Color&lt;/Desc&gt;
+      &lt;ForeColor&gt;HighlightText&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:173:214:255&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;inactiveselectioncolor&lt;/Name&gt;
+      &lt;Desc&gt;Inactive Selection Color&lt;/Desc&gt;
+      &lt;ForeColor&gt;InactiveCaptionText&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:229:235:241&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;minimapbackgroundcolor&lt;/Name&gt;
+      &lt;Desc&gt;Minimap Background Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:232:232:236&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;minimapbbordercolor&lt;/Name&gt;
+      &lt;Desc&gt;Minimap Border Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:245:245:245&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;minimapdragbbordercolor&lt;/Name&gt;
+      &lt;Desc&gt;Minimap Drag Border Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:145:145:145&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;minimapcurrentframecolor&lt;/Name&gt;
+      &lt;Desc&gt;Minimap Current Frame Color&lt;/Desc&gt;
+      &lt;BackColor&gt;120:255:255:255&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;minimapcurrentframebordercolor&lt;/Name&gt;
+      &lt;Desc&gt;Minimap Current Frame Border Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:62:62:62&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;highlightoutlineareacolor&lt;/Name&gt;
+      &lt;Desc&gt;Highlight Outline Area Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:246:247:250&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;highlightblockareacolor&lt;/Name&gt;
+      &lt;Desc&gt;Highlight Block Area Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:246:247:250&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;codecompletionboxcolor&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Box Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:247:249:254&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;codecompletionboxselectedcolor&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Box Selected Color&lt;/Desc&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:196:213:255&lt;/BackColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;codecompletionhintcolor&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Hint Color&lt;/Desc&gt;
+      &lt;BackColor&gt;Control&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;codecompletionarrowcolor&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Arrow Color&lt;/Desc&gt;
+      &lt;BackColor&gt;ControlText&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;thumbnormalcolor&lt;/Name&gt;
+      &lt;Desc&gt;Thumb Normal Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:194:195:201&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;thumbhoveredcolor&lt;/Name&gt;
+      &lt;Desc&gt;Thumb Hovered Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:104:104:104&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;thumbpressedcolor&lt;/Name&gt;
+      &lt;Desc&gt;Thumb Pressed Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:91:91:91&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;scrollbackgroundcolor&lt;/Name&gt;
+      &lt;Desc&gt;Scroll Background Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:245:245:245&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;popuppanel_resizegripper&lt;/Name&gt;
+      &lt;Desc&gt;Popup Panel Resize Gripper&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:27:41:62&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;popuppanel_focushighlightindicatorfocused&lt;/Name&gt;
+      &lt;Desc&gt;Popup Panel Focus Highlight Indicator Focused&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:255:242:157&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;popuppanel_focushighlightindicatornonfocused&lt;/Name&gt;
+      &lt;Desc&gt;Popup Panel Focus Highlight Indicator Non-Focused&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:77:96:130&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolscontrolbackground&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Control Background&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:207:214:229&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolstogglebuttonhovered&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Toggle Button Hovered&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:255:252:244&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolstogglebuttonpressedborder&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Toggle Button Pressed Border&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:229:195:101&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolspopupborder&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Popup Border&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:0:0:0&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolscontroltextnormal&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Control Text Normal&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:30:30:30&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolsbuttonhovered&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Button Hovered&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:255:252:244&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;vscontrolsbuttonpressed&lt;/Name&gt;
+      &lt;Desc&gt;VS Controls Button Pressed&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:255:242:157&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;CodeCompletionBoxCategoryFilterToolbarBackgroundColorInternalName&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Category Filter Toolbar Background&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:255:255:255&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;CodeCompletionBoxBorderColorInternalName&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Category Filter Toolbar Background&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:229:195:101&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;CodeCompletionBoxItemFocusRectangleColorInternalName&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Item Focus Rectangle&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:155:167:183&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;CodeCompletionBoxCategoryFilterButtonHoveredColorInternalName&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Category Filter Button Hovered&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:196:213:255&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;CodeCompletionBoxCategoryFilterButtonPressedColorInternalName&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion Category Filter Button Pressed&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:196:213:255&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;CodeCompletionBoxNoSuggestionsTextColorInternalName&lt;/Name&gt;
+      &lt;Desc&gt;Code Completion No Suggestions Text&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:27:41:62&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_popupbackgroundnormalcolor&lt;/Name&gt;
+      &lt;Desc&gt;Popup Background Normal&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:231:232:236&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_popupbackgroundoverlappedcolor&lt;/Name&gt;
+      &lt;Desc&gt;Popup Background Overlapped&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:214:216:220&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_itembackgroundhoveredcolor&lt;/Name&gt;
+      &lt;Desc&gt;Item Background Hovered&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:237:238:240&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_popupbordercolor&lt;/Name&gt;
+      &lt;Desc&gt;Popup Border&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:204:206:219&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_columnseparatorcolor&lt;/Name&gt;
+      &lt;Desc&gt;Column Separator&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:204:206:219&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_itemtextnormalcolor&lt;/Name&gt;
+      &lt;Desc&gt;Item Text Normal&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:30:30:30&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;datatip_itemtextoverlappedcolor&lt;/Name&gt;
+      &lt;Desc&gt;Item Text Overlapped&lt;/Desc&gt;
+      &lt;ForeColor&gt;255:162:164:165&lt;/ForeColor&gt;
+      &lt;BackColorEnabled&gt;false&lt;/BackColorEnabled&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;readonlybackcolor&lt;/Name&gt;
+      &lt;Desc&gt;Read Only Back Color&lt;/Desc&gt;
+      &lt;BackColor&gt;255:240:240:240&lt;/BackColor&gt;
+      &lt;ForeColorEnabled&gt;false&lt;/ForeColorEnabled&gt;
+    &lt;/Style&gt;
+  &lt;/Styles&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+  <metadata name="xmlParser1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="xmlParser1.XmlScheme" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;AlterNET Software&lt;/Author&gt;
+  &lt;Copyright&gt;Copyright (c) 2016-2023 Alternet Software&lt;/Copyright&gt;
+  &lt;FileType&gt;xml&lt;/FileType&gt;
+  &lt;Version&gt;1.5&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;xmlcomments&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;symbols&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;ForeColor&gt;WindowText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;ForeColor&gt;Maroon&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;htmlparams&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;syntax errors&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;code snippets&lt;/Name&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:255:231:160&lt;/BackColor&gt;
+    &lt;/Style&gt;
+  &lt;/Styles&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+  <metadata name="htmlParser1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>243, 17</value>
+  </metadata>
+  <data name="htmlParser1.XmlScheme" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;AlterNET Software&lt;/Author&gt;
+  &lt;Copyright&gt;Copyright (c) 2016-2023 Alternet Software&lt;/Copyright&gt;
+  &lt;FileType&gt;html&lt;/FileType&gt;
+  &lt;Version&gt;1.5&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;xmlcomments&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;symbols&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;ForeColor&gt;WindowText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;ForeColor&gt;Maroon&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;htmlparams&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;syntax errors&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;code snippets&lt;/Name&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:255:231:160&lt;/BackColor&gt;
+    &lt;/Style&gt;
+  &lt;/Styles&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+  <metadata name="mssqlParser1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>463, 17</value>
+  </metadata>
+  <data name="mssqlParser1.XmlScheme" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;AlterNET Software&lt;/Author&gt;
+  &lt;Copyright&gt;Copyright (c) 2016-2023 Alternet Software&lt;/Copyright&gt;
+  &lt;Version&gt;1.5&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;xmlcomments&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;symbols&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;ForeColor&gt;WindowText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;ForeColor&gt;Maroon&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;htmlparams&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;syntax errors&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;code snippets&lt;/Name&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:255:231:160&lt;/BackColor&gt;
+    &lt;/Style&gt;
+  &lt;/Styles&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+  <metadata name="sqlParser2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>586, 17</value>
+  </metadata>
+  <data name="sqlParser2.XmlScheme" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;AlterNET Software&lt;/Author&gt;
+  &lt;Copyright&gt;Copyright (c) 2016-2023 Alternet Software&lt;/Copyright&gt;
+  &lt;Version&gt;1.5&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;xmlcomments&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;symbols&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;ForeColor&gt;WindowText&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;ForeColor&gt;Maroon&lt;/ForeColor&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;htmlparams&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;syntax errors&lt;/Name&gt;
+      &lt;ForeColor&gt;Red&lt;/ForeColor&gt;
+    &lt;/Style&gt;
+    &lt;Style&gt;
+      &lt;Name&gt;code snippets&lt;/Name&gt;
+      &lt;ForeColor&gt;Black&lt;/ForeColor&gt;
+      &lt;BackColor&gt;255:255:231:160&lt;/BackColor&gt;
+    &lt;/Style&gt;
+  &lt;/Styles&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+</root>

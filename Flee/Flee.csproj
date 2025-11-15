@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SignAssembly>True</SignAssembly>
+    <NeutralLanguage>de</NeutralLanguage>
+    <AssemblyOriginatorKeyFile>C:\KeyFiles\CR3.snk</AssemblyOriginatorKeyFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Flee Expression Evaluator</Title>
+    <Version>3.0.54</Version>
+    <VersionPrefix>3.0.54</VersionPrefix>
+    <VersionSuffix>release</VersionSuffix>
+    <PackageOutputPath>..\..\..\Execute\af\nuget</PackageOutputPath>
+  </PropertyGroup>
+  
+    <ItemGroup>
+        <None Remove="Resources\DocComments.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Resources\DocComments.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+        <PackageReference Include="System.Reflection" Version="4.3.0" />
+        <PackageReference Include="System.Reflection.Emit" Version="4.7.0" />
+        <PackageReference Include="System.Reflection.Emit.ILGeneration" Version="4.7.0" />
+        <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
+    </ItemGroup>
+
+</Project>

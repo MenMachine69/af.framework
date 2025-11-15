@@ -1,0 +1,1 @@
+﻿Abstrakte Implementierung eines 'Business'-Layers mit Benutzer- und Berechtigungsverwaltung und diversen unterstützenden Informationen.

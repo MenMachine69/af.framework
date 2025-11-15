@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Base und BaseBuffered können in Editoren/Masken dargestellt werden. Base wird verwendet, wenn kein RollBack beim editieren benötigt wird, BaseBuffered wenn RollBack verwendet werden kann.">
+    <Position X="0.5" Y="6.562" Height="1.125" Width="2.804" />
+  </Comment>
+  <Comment CommentText="Model wird wie BaseBuffered verwendet, hat zusätzliche Eigenschaften für die Untertsützung in MVC (z.B. Model mit Parametern, die ein View steuern).">
+    <Position X="3.646" Y="6.583" Height="1.125" Width="2.804" />
+  </Comment>
+  <Comment CommentText="Table ist die Basisklase ALLER Datenbanktabellen (persistierte Objekte). Abgeleitet von BaseBuffered unterstützt die Klasse RollBack beim editieren.">
+    <Position X="12.51" Y="0.552" Height="0.823" Width="2.804" />
+  </Comment>
+  <Comment CommentText="View ist die Basisklasse ALLER Datenbankview. Abgeleitet von Base unterstützt die Klasse KEIN RollBack (View-Objekte sind nicht editierbar!).">
+    <Position X="12.448" Y="6.521" Height="0.854" Width="2.804" />
+  </Comment>
+  <Comment CommentText="TypeDescription ist für alle Klassen die von Base erben verfügbar!">
+    <Position X="3.542" Y="14.531" Height="0.51" Width="2.606" />
+  </Comment>
+  <Comment CommentText="IDataObject wird in Datenbanken LESEND verwendet. Schreibend wird ITable vorausgesetzt.">
+    <Position X="6.427" Y="14.573" Height="0.813" Width="5.606" />
+  </Comment>
+  <Class Name="AF.DATA.Table">
+    <Position X="9.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAACgAAAAmAAABAAAAgAYAAAQEAAAAQAABIIAAIAgAA=</HashCode>
+      <FileName>data\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.DATA.View">
+    <Position X="9.25" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAACgAAAAmAAABAAAAAAYAAAQEAAAAQAABIIAAIAgAA=</HashCode>
+      <FileName>data\View.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.MVC.Model">
+    <Position X="3.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAIAAAAAgAA=</HashCode>
+      <FileName>data\Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.CORE.Base">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACAAABCBQIAgAAEAAgAAQgAABABAgAEAgAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.CORE.BaseBuffered">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgAAAABAAAAAAAAEAAAAAQgAACAAAgAAAgAAA=</HashCode>
+      <FileName>BaseBuffered.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF.CORE.TypeDescription">
+    <Position X="0.5" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>gBgAELAAAoAgAACHAECgQQWABgABgJABCQBAAU6CwAA=</HashCode>
+      <FileName>tools\TypeDescription.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AF.DATA.DefaultTable">
+    <Position X="12.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAEJAAAAAAAAAQBAAQAAAAAQAAAAEAAAAwAA=</HashCode>
+      <FileName>data\DefaultTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AF.DATA.DefaultView">
+    <Position X="12.5" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAEJAAAAAAAAAQBAAQAAAAAQAAAAEAAAAwAA=</HashCode>
+      <FileName>data\DefaultView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AF.DATA.ITable">
+    <Position X="9.25" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data\ITable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.DATA.IView">
+    <Position X="9.25" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.DATA.IDataObject">
+    <Position X="6.5" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAQAAAQEAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>data\IDataObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.MVC.IModel">
+    <Position X="3.75" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAIAAAAAgAA=</HashCode>
+      <FileName>mvc\IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AF.CORE.IBindable">
+    <Position X="0.5" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAIAgAAEAAAAAQgAAAAAAgAAAAAAA=</HashCode>
+      <FileName>interfaces\IBindable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

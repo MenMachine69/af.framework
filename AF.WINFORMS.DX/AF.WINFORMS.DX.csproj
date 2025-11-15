@@ -1,0 +1,167 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>net10.0-windows</TargetFrameworks>
+    <ForceDesignerDPIUnaware>true</ForceDesignerDPIUnaware>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\KeyFiles\CR3.snk</AssemblyOriginatorKeyFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <DebugType>embedded</DebugType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>$(NoWarn);CS8002;CA1416</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>AF UI WinForms mit DevExpress</Title>
+    <Version>3.0.54</Version>
+    <VersionPrefix>3.0.54</VersionPrefix>
+    <VersionSuffix>release</VersionSuffix>
+    <PackageOutputPath>..\..\..\Execute\af\nuget</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alternet.Studio.Common" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Editor.Common" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Editor.Roslyn" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Editor.WindowsForms" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Roslyn" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Roslyn.Features" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.RoslynDependencies" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Syntax" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Syntax.Parsers.Advanced" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Syntax.Parsers.Generic" Version="10.0.4" />
+    <PackageReference Include="Alternet.Studio.Syntax.Parsers.Roslyn" Version="10.0.4" />
+    <PackageReference Include="DevExpress.Win.Design" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Design.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Reporting.CodeCompletion" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Reporting.Core.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Dialogs.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Map" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Map.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.PdfViewer.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Reporting" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Reporting.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Spreadsheet" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.Spreadsheet.de" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.TreeMap" Version="25.1.6" />
+    <PackageReference Include="DevExpress.Win.TreeMap.de" Version="25.1.6" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Features" Version="4.14.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.14.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic.Features" Version="4.14.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="4.14.0" />
+    <PackageReference Include="System.DirectoryServices.Protocols" Version="9.0.10" />
+    <PackageReference Include="Npgsql" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AF.CORE\AF.CORE.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="System.IO" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="components\AFOverlayDisplayManager.cs" />
+    <Compile Update="components\AFVisualComponentBase.cs" />
+    <Compile Update="controls\dashboard\AFDashboard.cs" />
+    <Compile Update="controls\dashboard\AFDashboardKPISmall.cs" />
+    <Compile Update="controls\dashboard\presenter\AFPresenterPivot.cs" />
+    <Compile Update="controls\dashboard\presenter\AFPresenterTwoSides.cs" />
+    <Compile Update="controls\data\AFSearchBar.cs" />
+    <Compile Update="controls\data\AFDatasourceBrowser.cs" />
+    <Compile Update="controls\data\ModulSearchResultsEditor.cs" />
+    <Compile Update="controls\documentdesigner\AFDocumentDesignerReport.cs" />
+    <Compile Update="controls\documentdesigner\AFDocumentDesignerEmpty.cs" />
+    <Compile Update="controls\documentdesigner\AFDocumentDesignerExport.cs" />
+    <Compile Update="controls\querydesigner\AFDBSchemeTableBrowser.cs" />
+    <Compile Update="controls\querydesigner\AFDBSchemeBrowserFields.cs" />
+    <Compile Update="controls\querydesigner\AFDBSchemeTreeBrowser.cs" />
+    <Compile Update="controls\scriptdesigner\AFORMBrowser.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditFormula.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditModel.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditQuery.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditScript.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditRichText.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditMemo.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditList.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditInteger.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditDecimal.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditDateTime.cs" />
+    <Compile Update="controls\variable\view\AFVariableEditString.cs" />
+    <Compile Update="controls\workflowdesigner\view\AFWorkflowDesigner.cs" />
+    <Compile Update="forms\SplashPluginSelectUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="forms\FormExceptionMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mvc\controls\AFComboboxModelType.cs" />
+    <Compile Update="mvc\controls\AFComboBoxModel.cs" />
+    <Compile Update="mvc\controls\AFEditor.cs" />
+    <Compile Update="mvc\controls\AFFilterArchived.cs" />
+    <Compile Update="mvc\controls\AFModelBrowser.cs" />
+    <Compile Update="mvc\controls\AFModulSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="mvc\controls\AFPage.cs" />
+    <Compile Update="mvc\controls\AFPageContainer.cs" />
+    <Compile Update="mvc\controls\AFViewManager.cs" />
+    <Compile Update="mvc\controls\detailviews\AFDetailViewLibraryDocumentDesigner.cs" />
+    <Compile Update="mvc\controls\detailviews\AFDetailViewQueryDesigner.cs" />
+    <Compile Update="mvc\controls\detailviews\AFDetailViewCodeSnippetDesigner.cs" />
+    <Compile Update="mvc\controls\sidebar\AFSidebarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mvc\controls\sidebar\AFSidebarPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mvc\controls\sidebar\AFSidebarPageBookmarks.cs" />
+    <Compile Update="mvc\controls\sidebar\AFSidebarPageHistory.cs" />
+    <Compile Update="mvc\controls\sidebar\AFSidebarPluginUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mvc\FormMVCShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="overlays\OverlayControlDXBase.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="WinFormsStrings.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>WinFormsStrings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="WinFormsStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WinFormsStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AF.skinpatch">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

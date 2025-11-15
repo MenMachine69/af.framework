@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APRIL" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="ATTENTION" xml:space="preserve">
+    <value>Achtung!</value>
+  </data>
+  <data name="AUGUST" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Abbrecheen</value>
+  </data>
+  <data name="CANTSTARTUPTWICE" xml:space="preserve">
+    <value>ANWENDUNG AUSFÜHREN
+Die Anwendung läuft bereits und kann nicht ein zweites Mal gestartet werden.</value>
+  </data>
+  <data name="CONMENU_CLOSEAPP" xml:space="preserve">
+    <value>  x Anwendung schließen</value>
+  </data>
+  <data name="CONMENU_RETURNTOMENU" xml:space="preserve">
+    <value>&lt;beliebige Taste zur Rückkehr ins Menü&gt;</value>
+  </data>
+  <data name="CONMENU_RETURNTOPREVIOUS" xml:space="preserve">
+    <value>  x zurück zum vorherigen Menü</value>
+  </data>
+  <data name="CONSOLE_ABORT_RETRY_IGNORE" xml:space="preserve">
+    <value>(A)bbrechen, (W)iederholen oder (I)gnorieren</value>
+  </data>
+  <data name="CONSOLE_OK_CANCEL" xml:space="preserve">
+    <value>(O)k oder (A)bbrechen</value>
+  </data>
+  <data name="CONSOLE_PRESS_KEY" xml:space="preserve">
+    <value>Beliebige Taste zum Fortfahren..</value>
+  </data>
+  <data name="CONSOLE_RETRY_CANCEL" xml:space="preserve">
+    <value>(W)iederholen oder (A)bbrechen</value>
+  </data>
+  <data name="CONSOLE_YES_NO" xml:space="preserve">
+    <value>(J)a oder (N)ein</value>
+  </data>
+  <data name="CONSOLE_YES_NO_CANCEL" xml:space="preserve">
+    <value>(J)a, (N)ein oder (A)bbrechen</value>
+  </data>
+  <data name="DATE_BEFOREDAYS" xml:space="preserve">
+    <value>{0} Tage vorher</value>
+  </data>
+  <data name="DATE_BEFOREHOURS" xml:space="preserve">
+    <value>{0} Stunden vorher</value>
+  </data>
+  <data name="DATE_BEFOREMINUTES" xml:space="preserve">
+    <value>{0} Minuten vorher</value>
+  </data>
+  <data name="DATE_BEFOREMONTHS" xml:space="preserve">
+    <value>{0} Monate vorher</value>
+  </data>
+  <data name="DATE_BEVORYEARS" xml:space="preserve">
+    <value>{0} Jahre vorher</value>
+  </data>
+  <data name="DBTRANS_NOCOMMANDDEFINED" xml:space="preserve">
+    <value>Im Übersetzer der DB ist keine Befehlszeichenfolge für den Befehl {0} definiert.</value>
+  </data>
+  <data name="DBTYPE_AZURESQL" xml:space="preserve">
+    <value>Azure SQL Server</value>
+  </data>
+  <data name="DBTYPE_FIREBIRDEMB" xml:space="preserve">
+    <value>FirebirdSQL eingebettet</value>
+  </data>
+  <data name="DBTYPE_FIREBIRDSQL" xml:space="preserve">
+    <value>FirebirdSQL Server</value>
+  </data>
+  <data name="DBTYPE_MSSQL" xml:space="preserve">
+    <value>Microsoft SQL-Server</value>
+  </data>
+  <data name="DBTYPE_ODBC" xml:space="preserve">
+    <value>ODBC-Datenbank</value>
+  </data>
+  <data name="DBTYPE_OLEDB" xml:space="preserve">
+    <value>OLE-Datenbank</value>
+  </data>
+  <data name="DBTYPE_ORACLE" xml:space="preserve">
+    <value>Oracle DB-Server</value>
+  </data>
+  <data name="DBTYPE_POSTGRESQL" xml:space="preserve">
+    <value>PostgreSQL-Server</value>
+  </data>
+  <data name="DECEMBER" xml:space="preserve">
+    <value>Dezember</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="ERRORAFEATINGMANDANTDIRECTORY" xml:space="preserve">
+    <value>Fehler beim Erstellen des Verzeichnisses für die Client-Konfiguration ({0}). {1}</value>
+  </data>
+  <data name="ERRORONSTARTUP" xml:space="preserve">
+    <value>FEHLER BEIM STARTEN
+Beim Starten der Anwendung ist ein Fehler aufgetreten.
+{0}"
+Fehler beim Erstellen der Datenbank {0</value>
+  </data>
+  <data name="ERRORWHILEAFEATINGDATABASE" xml:space="preserve">
+    <value>Fehler beim Erstellen der Datenbank {0}</value>
+  </data>
+  <data name="ERRORWHILELOADINGMANDATNTCONFIG" xml:space="preserve">
+    <value>Beim Laden der Konfiguration des Clients aus der Datei {0} ist ein Fehler aufgetreten. {1}</value>
+  </data>
+  <data name="ERRORWRONGUSERORPASSWORD" xml:space="preserve">
+    <value>Falscher Benutzername und/oder falsches Passwort</value>
+  </data>
+  <data name="ERROR_CANTCOMMITNOACTIVETRANSACTION" xml:space="preserve">
+    <value>Transaktion kann nicht abgeschlossen werden. Es ist keine Transaktion aktiv</value>
+  </data>
+  <data name="ERROR_CANTROLLBACKNOACTIVETRANSACTION" xml:space="preserve">
+    <value>Transaktion kann nicht rückgängig gemacht werden. Es ist keine Transaktion aktiv</value>
+  </data>
+  <data name="ERROR_CANTSTARTTRANSACTIONWHILETRANSACTIONEXIST" xml:space="preserve">
+    <value>ransaktion kann nicht gestartet werden. Es ist bereits eine Transaktion aktiv</value>
+  </data>
+  <data name="ERROR_COMMANDMETHODMUSTBESTATIC" xml:space="preserve">
+    <value>Die Methode {0} muss als public static definiert sein, um als COMMAND verwendet werden zu können</value>
+  </data>
+  <data name="ERROR_COMMITTRANSACTION" xml:space="preserve">
+    <value>Beim Festschreiben einer Transaktion ist ein Fehler aufgetreten</value>
+  </data>
+  <data name="ERROR_COMMITTRANSACTION1" xml:space="preserve">
+    <value>Fehler beim Festschreiben der Transaktion. Siehe Innerexception für weitere Informationen</value>
+  </data>
+  <data name="ERROR_DBCONSTRUCTORCANTUSEDWITHOUTPARAMETER" xml:space="preserve">
+    <value>Der Konstruktor kann nicht ohne Angabe der Datenbank verwendet werden</value>
+  </data>
+  <data name="ERROR_DBTRANSACTIONEXISTS" xml:space="preserve">
+    <value>Transaktion existiert bereits</value>
+  </data>
+  <data name="ERROR_DBTRANSACTIONEXISTS1" xml:space="preserve">
+    <value>Es gibt bereits eine offene Transaktion. Eine neue Transaktion kann nicht erstellt werden</value>
+  </data>
+  <data name="ERROR_DELETECANCELED" xml:space="preserve">
+    <value>Die Löschung wurde abgebrochen</value>
+  </data>
+  <data name="ERROR_DIRECTORYINFO_NOPHYSICALDRIVE" xml:space="preserve">
+    <value>Das Verzeichnis '{0}' befindet sich nicht auf einem physischen Laufwerk, sondern stellt ein UNC-Verzeichnis dar, für das keine Seriennummer verfügbar ist</value>
+  </data>
+  <data name="ERROR_IMPELEMENTINCHILDCONTROLLER" xml:space="preserve">
+    <value>Die Methode muss in der konkreten Steuerung des Modells implementiert werden</value>
+  </data>
+  <data name="ERROR_ISUNIQUENOTAVAILABLE" xml:space="preserve">
+    <value>Der Typ {0} enthält kein Systemfeld für PrimaryKey. IsUnique wird daher nicht unterstützt</value>
+  </data>
+  <data name="ERROR_MISSINGBINDINGGETTER" xml:space="preserve">
+    <value>Der Typ {0} hat keine Eigenschaft mit dem Namen {1}, an die er gebunden werden kann. (GET fehlt</value>
+  </data>
+  <data name="ERROR_MISSINGBINDINGSETTER" xml:space="preserve">
+    <value>Der Typ {0} hat keine Eigenschaft mit dem Namen {1}, an die er gebunden werden kann. (SET fehlt</value>
+  </data>
+  <data name="ERROR_MISSINGDATABASE" xml:space="preserve">
+    <value>Es wurde keine Datenbank gefunden. Weisen Sie eine Datenbank zu, bevor Sie diese Methode verwenden</value>
+  </data>
+  <data name="ERROR_MISSINGFIELDNAME" xml:space="preserve">
+    <value>Feldname für Zusammenfassung nicht angegeben.</value>
+  </data>
+  <data name="ERROR_MISSINGKEYFIELD" xml:space="preserve">
+    <value>Der Typ {0} hat kein Feld, das die Eigenschaft eSystemFieldFlag.Key besitzt</value>
+  </data>
+  <data name="ERROR_MISSINGPRIMARYKEY" xml:space="preserve">
+    <value>Der Typ/Klasse {0} enthält kein Feld, das als PrimaryKey (Feldattribut) gekennzeichnet ist</value>
+  </data>
+  <data name="ERROR_MISSINGTABLEATTRIBUTE" xml:space="preserve">
+    <value>Der Typ {0} ist weder mit dem Attribut TABLE noch mit dem Attribut VIEW versehen</value>
+  </data>
+  <data name="ERROR_MISSINGTIMESTAMPCHANGED" xml:space="preserve">
+    <value>Der Typ/die Klasse {0} enthält kein als TimestampChanged (Feldattribut) gekennzeichnetes Feld</value>
+  </data>
+  <data name="ERROR_MISSINGTIMESTAMPAFEATED" xml:space="preserve">
+    <value>Der Typ/die Klasse {0} enthält kein als TimestampCreated (Attribut Field) gekennzeichnetes Feld</value>
+  </data>
+  <data name="ERROR_MISSINGTYPEDESCRIPTION" xml:space="preserve">
+    <value>Es wurde keine Typbeschreibung (TypeDescription) übergeben</value>
+  </data>
+  <data name="ERROR_MUSTBEFIREBIRDCONFIGURATION" xml:space="preserve">
+    <value>Die Konfiguration muss vom Typ FirebirdConfiguration sein</value>
+  </data>
+  <data name="ERROR_MUSTBEFIREBIRDTRANSLATOR" xml:space="preserve">
+    <value>Der Übersetzer muss vom Typ FirebirdTranslator sein</value>
+  </data>
+  <data name="ERROR_MUSTBEOVERWRITEN" xml:space="preserve">
+    <value>Muss in konkreten, nicht abstrakten Klassen überschrieben werden</value>
+  </data>
+  <data name="ERROR_MUSTBEPOSTGRECONFIGURATION" xml:space="preserve">
+    <value>Die Konfiguration muss vom Typ PostgreConfiguration sein</value>
+  </data>
+  <data name="ERROR_MUSTBEPOSTGRETRANSLATOR" xml:space="preserve">
+    <value>Der Übersetzer muss vom Typ PostgreTranslator sein</value>
+  </data>
+  <data name="ERROR_NOACTIVECONNECTION" xml:space="preserve">
+    <value>Es gibt keine aktive Verbindung</value>
+  </data>
+  <data name="ERROR_NOACTIVECONNECTION1" xml:space="preserve">
+    <value>Es gibt keine offene Verbindung, zu der eine Transaktion erstellt werden kann</value>
+  </data>
+  <data name="ERROR_NOACTIVETRANSACTION" xml:space="preserve">
+    <value>Es gibt keine offene Transaktion</value>
+  </data>
+  <data name="ERROR_NOACTIVETRANSACTION1" xml:space="preserve">
+    <value>Es gibt keine offene Transaktion</value>
+  </data>
+  <data name="ERROR_NOAPPASSIGNED" xml:space="preserve">
+    <value>Es wurde kein Anwendungsobjekt zugewiesen</value>
+  </data>
+  <data name="ERROR_NOFIELDINTYPE" xml:space="preserve">
+    <value>Der Typ {0} verfügt nicht über ein Feld mit dem Namen {1}</value>
+  </data>
+  <data name="ERROR_NOSYSTEMFIELDSALLOWED" xml:space="preserve">
+    <value>Systemfelder sind nur erlaubt, wenn der Typ mit dem TABLE-Attribut oder dem VIEW-Attribut versehen wurde</value>
+  </data>
+  <data name="ERROR_NOTIMPLEMENTEDINBASE" xml:space="preserve">
+    <value>Diese Methode muss in der konkreten Datenbankverbindungsklasse implementiert werden.</value>
+  </data>
+  <data name="ERROR_OBJECTNOTSERIALIZABLE" xml:space="preserve">
+    <value>Der Typ {0} ist nicht serialisierbar. Das Objekt kann nicht serialisiert werden</value>
+  </data>
+  <data name="ERROR_ROLLBACKTRANSACTION" xml:space="preserve">
+    <value>Fehler beim Rollback der Transaktion. Siehe Innerexception für weitere Informationen</value>
+  </data>
+  <data name="ERROR_SAVECANCELED" xml:space="preserve">
+    <value>Der Speichervorgang wurde abgebrochen</value>
+  </data>
+  <data name="ERROR_SAFIPTINGCANTAFEATEASSEMBLY" xml:space="preserve">
+    <value>Die Assembly konnte nicht erstellt werden</value>
+  </data>
+  <data name="ERROR_SAFIPTINGCANTAFEATEOBJECT" xml:space="preserve">
+    <value>Objekt der Klasse {0} konnte nicht erstellt werden</value>
+  </data>
+  <data name="ERROR_SAFIPTINGERRORWHILECOMPILEASSEMBLY" xml:space="preserve">
+    <value>{0} Fehler beim Kompilieren der Assembly</value>
+  </data>
+  <data name="ERROR_SAFIPTINGERRORWHILEAFEATEASSEMBLY" xml:space="preserve">
+    <value>Fehler beim Erstellen der Assembly.
+{0}"
+"Fehler beim Erstellen des Objekt</value>
+  </data>
+  <data name="ERROR_SAFIPTINGERRORWHILEAFEATEOBJECT" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ERROR_STRINGMASKERROR" xml:space="preserve">
+    <value>Falsche Maske: {0}</value>
+  </data>
+  <data name="ERROR_SYSTEMFIELDDUPLICATE" xml:space="preserve">
+    <value>Das Systemfeld {0} kann zweimal in der Klasse {1} definiert werden</value>
+  </data>
+  <data name="ERROR_SYSTEMFIELDNOTALLOWED" xml:space="preserve">
+    <value>Das Systemfeld {0} kann nur von einer Entität vom Typ TABLE oder VIEW verwendet werden. (die Klasse {1} muss mit dem Attribut TABLE oder VIEW versehen sein)</value>
+  </data>
+  <data name="ERROR_SYSTEMFIELDNOTMARKEDASPERSISTANT" xml:space="preserve">
+    <value>Das Systemfeld {0} muss als persistent gekennzeichnet sein</value>
+  </data>
+  <data name="ERROR_TABLEIDTOSMALL" xml:space="preserve">
+    <value>Die TableID der Tabelle {0} muss größer als 0 sein</value>
+  </data>
+  <data name="ERROR_TYPEDOESNTCONTAINFIELD" xml:space="preserve">
+    <value>Der Typ {0} enthält kein Feld mit dem Namen {1}. Regel kann nicht hinzugefügt werden</value>
+  </data>
+  <data name="ERROR_UNKNOWNBUTTONS" xml:space="preserve">
+    <value>Unbekannte Schaltflächenkonfiguration/-kombination</value>
+  </data>
+  <data name="ERROR_VALUECANTBENULL" xml:space="preserve">
+    <value>Der Wert darf nicht NULL sein</value>
+  </data>
+  <data name="ERROR_VALUEMUSTBEBIGGERTHENZERO" xml:space="preserve">
+    <value>Der Wert muss &gt;= 0 sein</value>
+  </data>
+  <data name="ERROR_VIEWCANTBETABLE" xml:space="preserve">
+    <value>Der Typ {0} kann nicht gleichzeitig als VIEW und als TABLE markiert sein</value>
+  </data>
+  <data name="ERROR_VIEWDOENSTCONTAINQUERY" xml:space="preserve">
+    <value>Im Typ {0}, der mit dem Attribut VIEW versehen wurde, fehlt die Definition der Abfrage. Die Abfrage des Views muss angegeben werden (entweder über 'Query' im View-Attribut oder eine statische Methode 'RequestViewQuery' in der Klasse des Typs</value>
+  </data>
+  <data name="ERROR_VIEWDOESNTCONTAINFIELDS" xml:space="preserve">
+    <value>Der Abfrage vom Typ {0}, die mit dem VIEW-Attribut bereitgestellt wird, fehlt der Platzhalter #FIELDS#, der die abzufragenden Felder darstellt</value>
+  </data>
+  <data name="ERROR_WHILECONVERTIMAGEFROMBYTEARRAY" xml:space="preserve">
+    <value>Fehler beim Konvertieren des Bildes aus dem Datenbankdatenstrom</value>
+  </data>
+  <data name="ERROR_WHILECONVERTIMAGETOBYTEARRAY" xml:space="preserve">
+    <value>Fehler beim Konvertieren des Bildes in einen Datenstrom.</value>
+  </data>
+  <data name="ERROR_WHILETRANSLATINGTODB" xml:space="preserve">
+    <value>Fehler bei der Konvertierung eines Wertes in das Datenbankformat. (Quelltyp: {0}, Zieltyp: {1}</value>
+  </data>
+  <data name="ERROR_WHILETRANSLATIONFROMDB" xml:space="preserve">
+    <value>Fehler bei der Konvertierung eines Wertes aus dem Datenbankformat. (Quelltyp: {0}, Zieltyp: {1}</value>
+  </data>
+  <data name="ERR_DATABSENOTASSIGNED" xml:space="preserve">
+    <value>Datenbank nicht zugewiesen/konfigurier</value>
+  </data>
+  <data name="ERR_GETREADER_NOT_AVAILABLE" xml:space="preserve">
+    <value>GetReader ist nicht verfügbar</value>
+  </data>
+  <data name="ERR_MUSTMULTIPLEOFEIGHT" xml:space="preserve">
+    <value>Länge muss ein Vielfaches von 8 sei</value>
+  </data>
+  <data name="ERR_SECPROVIDERNOTASSIGNED" xml:space="preserve">
+    <value>Sicherheitsanbieter nicht zugewiesen/konfigurier</value>
+  </data>
+  <data name="ERR_TYPE_DOES_NOT_CONTAIN_KEY" xml:space="preserve">
+    <value>Typ {0} enthält kein Feld für den Primärschlüssel</value>
+  </data>
+  <data name="FEBRUARY" xml:space="preserve">
+    <value>Februar</value>
+  </data>
+  <data name="IGNORE" xml:space="preserve">
+    <value>Ignorieren</value>
+  </data>
+  <data name="INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="JANUARY" xml:space="preserve">
+    <value>Januar</value>
+  </data>
+  <data name="JULI" xml:space="preserve">
+    <value>Juli</value>
+  </data>
+  <data name="JUNE" xml:space="preserve">
+    <value>Juni</value>
+  </data>
+  <data name="LBL_PROGRESS" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; von &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="LOGINNAMETOSHORT" xml:space="preserve">
+    <value>Der Anmeldename muss mindestens 5 Zeichen lang sein</value>
+  </data>
+  <data name="LOGINNOTSUCCESSFULL" xml:space="preserve">
+    <value>LOGIN
+Die Anmeldung war nicht erfolgreich. Die Anmeldung wird abgebrochen.</value>
+  </data>
+  <data name="MARCH" xml:space="preserve">
+    <value>März</value>
+  </data>
+  <data name="MAY" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="MOREINFORMATIONS" xml:space="preserve">
+    <value>mehr Informationen</value>
+  </data>
+  <data name="MSG_CHECKTABLE" xml:space="preserve">
+    <value>Prüfe Tabelle {0}...</value>
+  </data>
+  <data name="MSG_CHECKVIEW" xml:space="preserve">
+    <value>Prüfe View {0}...</value>
+  </data>
+  <data name="MSG_DELETEVIEW" xml:space="preserve">
+    <value>Lösche View {0}...</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="NOTALLOWED" xml:space="preserve">
+    <value>Nicht erlaubt. Sie haben nicht die erforderliche Berechtigung.</value>
+  </data>
+  <data name="NOVEMBER" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="OCTOBER" xml:space="preserve">
+    <value>Oktober</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="PASSWORDNOTMATCH" xml:space="preserve">
+    <value>Die Wiederholung stimmt nicht mit dem Passwort überein.</value>
+  </data>
+  <data name="PASSWORDTOSHORT" xml:space="preserve">
+    <value>Das Passwort muss mindestens 8 Zeichen lang sein.</value>
+  </data>
+  <data name="QUESTION" xml:space="preserve">
+    <value>Frage</value>
+  </data>
+  <data name="RETRY" xml:space="preserve">
+    <value>Wiederholung</value>
+  </data>
+  <data name="SEPTEMBER" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="SYS_ARCHIVED_DESC" xml:space="preserve">
+    <value>Diese Eigenschaft kennzeichnet einen Datensatz als archiviert.</value>
+  </data>
+  <data name="SYS_ARCHIVED_HINT" xml:space="preserve">
+    <value>Archivierte Datensätze/Objekte werden bei Standardoperationen nicht verarbeitet/verwendet (z. B. nicht angezeigt).</value>
+  </data>
+  <data name="SYS_ARCHIVED_PLURAL" xml:space="preserve">
+    <value>sind archiviert</value>
+  </data>
+  <data name="SYS_ARCHIVED" xml:space="preserve">
+    <value>ist archiviert</value>
+  </data>
+  <data name="SYS_CHANGED_DESC" xml:space="preserve">
+    <value>Der Zeitpunkt der letzten Änderung des Datensatzes/Objekts in der Datenbank</value>
+  </data>
+  <data name="SYS_CHANGED_HINT" xml:space="preserve">
+    <value>Dieser Zeitstempel wird automatisch aktualisiert, wenn der Datensatz/das Objekt in der Datenbank gespeichert wird. Bis zur ersten Speicherung lautet der Zeitstempel 01.01.0001.</value>
+  </data>
+  <data name="SYS_CHANGED_PLURAL" xml:space="preserve">
+    <value>geändert am</value>
+  </data>
+  <data name="SYS_CHANGED_SINGULAR" xml:space="preserve">
+    <value>geändert am</value>
+  </data>
+  <data name="SYS_AFEATED_DESC" xml:space="preserve">
+    <value>Der Zeitpunkt, zu dem der Datensatz/das Objekt erstmals in der Datenbank gespeichert wurde.</value>
+  </data>
+  <data name="SYS_AFEATED_HINT" xml:space="preserve">
+    <value>Dieser Zeitstempel wird automatisch erstellt, wenn die Daten erstmals in der Datenbank gespeichert werden. Bis zu diesem Zeitpunkt ist der Zeitstempel 01.01.0001.</value>
+  </data>
+  <data name="SYS_AFEATED_PLURAL" xml:space="preserve">
+    <value>erstellt am</value>
+  </data>
+  <data name="SYS_AFEATED_SINGULAR" xml:space="preserve">
+    <value>erstellt am</value>
+  </data>
+  <data name="SYS_ID_DESC" xml:space="preserve">
+    <value>Die interne ID (Primärschlüssel) des Datensatzes/Objekts in der Datenbankm</value>
+  </data>
+  <data name="SYS_ID_HINT" xml:space="preserve">
+    <value>Diese ID wird automatisch erstellt, wenn er zum ersten Mal in der Datenbank gespeichert wird. Bis zu diesem Zeitpunkt ist die ID leer.</value>
+  </data>
+  <data name="SYS_ID_PLURAL" xml:space="preserve">
+    <value>interne IDs</value>
+  </data>
+  <data name="SYS_ID_SINGULAR" xml:space="preserve">
+    <value>interne ID</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>&lt;unbekannt&gt;</value>
+  </data>
+  <data name="VALUECANNOTBENULL" xml:space="preserve">
+    <value>Der Wert darf nicht null sein.</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="ERR_APPPATHNOTAVAILABLE" xml:space="preserve">
+    <value>Der Anwendungspfad kann nicht aufgelöst werden</value>
+  </data>
+  <data name="ERR_UNKNOWNCONTROLLER" xml:space="preserve">
+    <value>&lt;unbekannter Controller</value>
+  </data>
+  <data name="VALIDATE_NOTALLOWEDCHARS" xml:space="preserve">
+    <value>Enthält nicht erlaubte Zeichen. (nicht erlaubt sind: {0})</value>
+  </data>
+  <data name="ERR_ADDTOLISTNOTALLOWED" xml:space="preserve">
+    <value>Eingabe für Listenvariablen ist nicht erlaubt</value>
+  </data>
+  <data name="ERR_ALLOWEDCHARS" xml:space="preserve">
+    <value>Enthält nicht erlaubte Zeichen. (erlaubt sind: {0}</value>
+  </data>
+  <data name="ERR_ASSIGNVALUETOSAFIPTNOTALLOWED" xml:space="preserve">
+    <value>Die Zuweisung eines Wertes an ein VariableScript ist nicht möglich</value>
+  </data>
+  <data name="ERR_CONTROLLER_MISSINGINTERFACE" xml:space="preserve">
+    <value>Typ {0} implementiert die IController-Schnittstelle nicht</value>
+  </data>
+  <data name="ERR_CONTROLLER_NOINSTANCE" xml:space="preserve">
+    <value>Typ {0} implementiert keine Eigenschaft 'Instance' für den Zugriff auf die Controller-Instanz</value>
+  </data>
+  <data name="ERR_COPY_MISSINGSOURCE" xml:space="preserve">
+    <value>Fehlende Quelle zum Kopieren von</value>
+  </data>
+  <data name="ERR_AFYPT_MISSINGKEY" xml:space="preserve">
+    <value>Vor der Verwendung von Encrypt muss CreateKey aufgerufen werden, um den entsprechenden Schlüssel zu erzeugen</value>
+  </data>
+  <data name="ERR_DATECANNOTBEHIGHER" xml:space="preserve">
+    <value>Datum kann nicht größer als {0:d} sein</value>
+  </data>
+  <data name="ERR_DATECANNOTBELOWER" xml:space="preserve">
+    <value>Datum kann nicht kleiner sein als {0:d}</value>
+  </data>
+  <data name="ERR_GRID_BANDALLWASEXIST" xml:space="preserve">
+    <value>Ein Band mit dem Namen {0} existiert immer</value>
+  </data>
+  <data name="ERR_MISSINGAPPPATH" xml:space="preserve">
+    <value>Anwendungspfad aus AF.App ist nicht verfügbar. Weisen Sie ein geeignetes Anwendungsobjekt zu</value>
+  </data>
+  <data name="ERR_MISSINGTABLEID" xml:space="preserve">
+    <value>Typ {0} ist eine Tabelle, hat aber keine TableId &gt; 0</value>
+  </data>
+  <data name="ERR_MISSINGVIEWID" xml:space="preserve">
+    <value>Typ {0} ist ein View, hat aber keine ViewId &gt; 0</value>
+  </data>
+  <data name="ERR_MISSTYPEDESCRIPTION" xml:space="preserve">
+    <value>Referenz Typ {0} hat keine Typbeschreibung oder ist keine Tabelle</value>
+  </data>
+  <data name="ERR_NORECORDWITHID" xml:space="preserve">
+    <value>Es gibt kein Objekt mit der ID {0} in der Datenbank</value>
+  </data>
+  <data name="ERR_NOTALLOWEDCHARS" xml:space="preserve">
+    <value>Enthält nicht erlaubte Zeichen. (nicht erlaubt sind: {0}</value>
+  </data>
+  <data name="ERR_NULLNOTALLOWED" xml:space="preserve">
+    <value>NULL zuweisen ist nicht erlaubt</value>
+  </data>
+  <data name="ERR_PARSER_NONAME" xml:space="preserve">
+    <value>Wert ohne Namen ({0})</value>
+  </data>
+  <data name="ERR_PARSER_WRONGNAME" xml:space="preserve">
+    <value>Ungültiger Name für Parameter ({0})</value>
+  </data>
+  <data name="ERR_PATHNOTEXIST" xml:space="preserve">
+    <value>Der Pfad '{0}' existiert nicht</value>
+  </data>
+  <data name="ERR_RECORDCHANGED" xml:space="preserve">
+    <value>Der Datensatz wurde in der Zwischenzeit geändert</value>
+  </data>
+  <data name="ERR_SAMETABLEID" xml:space="preserve">
+    <value>Typ {0} hat die gleiche TableId {1} wie {2}</value>
+  </data>
+  <data name="ERR_SAMETABLENAME" xml:space="preserve">
+    <value>Typ {0} hat denselben Tabellennamen {1} wie {2}</value>
+  </data>
+  <data name="ERR_SAMEVIEWID" xml:space="preserve">
+    <value>Typ {0} hat die gleiche ViewId {1} wie {2}</value>
+  </data>
+  <data name="ERR_SAMEVIEWNAME" xml:space="preserve">
+    <value>Typ {0} hat denselben ViewName {1} wie {2}</value>
+  </data>
+  <data name="ERR_TABLEAFEATING" xml:space="preserve">
+    <value>Fehler beim Erstellen der Tabelle {0}</value>
+  </data>
+  <data name="ERR_TABLEIDRESERVED" xml:space="preserve">
+    <value>Typ {0} ist eine Tabelle, hat aber eine TableId &lt; 100. TableIds &lt; 100 sind für interne AF3-Tabellen reserviert</value>
+  </data>
+  <data name="ERR_TABLEIDTOSMALL" xml:space="preserve">
+    <value>Typ {0} ist eine Tabelle, aber Version ist nicht &gt; 0. Die Version muss immer &gt; 0 sein</value>
+  </data>
+  <data name="ERR_TOFEWCHARS" xml:space="preserve">
+    <value>Mindestens {0} Zeichen sind erforderlich</value>
+  </data>
+  <data name="ERR_TOMUCHCHARS" xml:space="preserve">
+    <value>Zu viele Zeichen. Nur {0} Zeichen erlaubt</value>
+  </data>
+  <data name="ERR_TYPECANNOTBETABLEANDVIEW" xml:space="preserve">
+    <value>Typ {0} kann nicht gleichzeitig Tabelle und Ansicht sein</value>
+  </data>
+  <data name="ERR_TYPECANNOTBEUSEDASFIELD" xml:space="preserve">
+    <value>Unbekannter Datentyp {0} kann nicht als Feld verwendet werden</value>
+  </data>
+  <data name="ERR_TYPEISNOTBINDABLE" xml:space="preserve">
+    <value>Typ {0} implementiert nicht AF.CORE.IBindable</value>
+  </data>
+  <data name="ERR_TYPEISNOTTABLE" xml:space="preserve">
+    <value>Typ {0} ist keine Tabelle</value>
+  </data>
+  <data name="ERR_TYPEISNOTTABLEORVIEW" xml:space="preserve">
+    <value>Typ {0} ist keine Tabelle oder View. Diese Methode ist nur für Tabellen oder Views geeignet</value>
+  </data>
+  <data name="ERR_TYPEISNOTVIEW" xml:space="preserve">
+    <value>Typ {0} ist kein View</value>
+  </data>
+  <data name="ERR_TYPEMISSINGDB" xml:space="preserve">
+    <value>Es kann keine Datenbank für {0} gefunden werden</value>
+  </data>
+  <data name="ERR_TYPESNOTEQUAL" xml:space="preserve">
+    <value>Typ der Quelle ist nicht gleich diesem Typ</value>
+  </data>
+  <data name="ERR_TYPE_NOT_CONTAIN_CHANGED" xml:space="preserve">
+    <value>Typ {0} enthält kein Feld "geändert"</value>
+  </data>
+  <data name="ERR_TYPE_NOT_CONTAIN_AFEATED" xml:space="preserve">
+    <value>Typ {0} enthält kein Feld "erstellt"</value>
+  </data>
+  <data name="ERR_VALUEMUSTBETWEEN" xml:space="preserve">
+    <value>Wert muss zwischen {0} und {1} liegen</value>
+  </data>
+  <data name="ERR_VALUENOTINLIST" xml:space="preserve">
+    <value>Der aktuelle Wert ist kein Element der Liste</value>
+  </data>
+  <data name="ERR_VALUETOBIG" xml:space="preserve">
+    <value>Der Wert kann nicht größer/höher als {0} sein</value>
+  </data>
+  <data name="ERR_VALUETOSMALL" xml:space="preserve">
+    <value>Wert kann nicht kleiner als {0} sein</value>
+  </data>
+  <data name="ERR_VIEWIDRESERVRED" xml:space="preserve">
+    <value>Typ {0} ist eine Ansicht, hat aber eine ViewId &lt; 100. ViewIds &lt; 100 sind für AF3-interne Ansichten reserviert</value>
+  </data>
+  <data name="ERR_VIEWIDTOSMALL" xml:space="preserve">
+    <value>Typ {0} ist ein View, aber Version ist nicht &gt; 0. Die Version muss immer &gt; 0 sein</value>
+  </data>
+  <data name="ERR_WRONGARRAYLENGTH" xml:space="preserve">
+    <value>Arrays müssen die gleiche Länge habe</value>
+  </data>
+  <data name="ERR_WRONGSAFIPTID" xml:space="preserve">
+    <value>Unbekannte Skript-ID {0}</value>
+  </data>
+  <data name="ERR_WRONGSTRINGLENGTH" xml:space="preserve">
+    <value>Die Länge des Wertes muss zwischen {0} und {1} Zeichen liegen</value>
+  </data>
+  <data name="ERR_CTRL_COMMANDNOTAVAILABLE" xml:space="preserve">
+    <value>Befehl {0} ist nicht verfügbar ({1})</value>
+  </data>
+  <data name="ERR_CTRL_TOMANYCOMMANDS" xml:space="preserve">
+    <value>Methode {0} hat mehr als ein AFCommand-Attribut</value>
+  </data>
+  <data name="ERR_CTRL_WRONGMASTERTYPE" xml:space="preserve">
+    <value>Master ist nicht vom Typ {0}</value>
+  </data>
+  <data name="ERR_CTRL_WRONGMETHOD" xml:space="preserve">
+    <value>Die Methode {0} der Klasse {1} muss PUBLIC definiert sein und darf nicht STATIC sein</value>
+  </data>
+  <data name="ERR_CTRL_WRONGNAME" xml:space="preserve">
+    <value>Befehl {0} in Controller {1} kann nicht verwendet werden, da ein Befehl mit demselben Namen bereits existiert</value>
+  </data>
+  <data name="ERR_CTRL_WRONGPARAMETER" xml:space="preserve">
+    <value>Der erste Parameter der Methode {0} der als Command gekennzeichneten Klasse {1} muss vom Typ AF.CORE.CommandData sein</value>
+  </data>
+  <data name="ERR_CTRL_WRONGRETURN" xml:space="preserve">
+    <value>Die Rückgabe der Methode {0} der als Command markierten Klasse {1} muss vom Typ AF.CORE.CommandResult sein</value>
+  </data>
+  <data name="ERR_CTRL_WRONGSTORAGETYPE" xml:space="preserve">
+    <value>Speicher ist nicht vom Typ {0}</value>
+  </data>
+  <data name="ERR_FILE_NODIRECTORY" xml:space="preserve">
+    <value>Datei enthält keine Verzeichnisinformationen.</value>
+  </data>
+  <data name="ERR_FILE_NOTFOUND" xml:space="preserve">
+    <value>Datei {0} nicht gefunden</value>
+  </data>
+  <data name="ERR_NODBCHILDS" xml:space="preserve">
+    <value>Typ {0} hat keine Datenbank zugewiesen. Vielleicht sollten Sie ReadChilds überschreiben</value>
+  </data>
+  <data name="ERR_NODBRELATED" xml:space="preserve">
+    <value>Typ {0} hat keine Datenbank zugewiesen. Möglicherweise sollten Sie ReadRelated überschreiben</value>
+  </data>
+  <data name="ERR_NOFIELD" xml:space="preserve">
+    <value>Es ist kein Feld {0} verfügbar</value>
+  </data>
+  <data name="ERR_NOREALDRIVE" xml:space="preserve">
+    <value>Kein physisches Laufwerk: {0}</value>
+  </data>
+  <data name="ERR_QBUIDLER_INSERTFIELDS" xml:space="preserve">
+    <value>Die zu schreibenden Felder müssen beim Einfügen angegeben werden</value>
+  </data>
+  <data name="ERR_QBUILDER_ALIASNOTUNIQUE" xml:space="preserve">
+    <value>Der Alias {0} wird bereits verwendet</value>
+  </data>
+  <data name="ERR_QBUILDER_GROUPBYNOTAVAILABLE" xml:space="preserve">
+    <value>GroupBy kann an dieser Stelle nicht verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_GROUPBYSELECT" xml:space="preserve">
+    <value>GroupBy kann nur für Select angegeben werden.</value>
+  </data>
+  <data name="ERR_QBUILDER_JOINNODESC" xml:space="preserve">
+    <value>Der Typ {0} kann in der Verknüpfung nicht verwendet werden. Es gibt keine Typbeschreibung</value>
+  </data>
+  <data name="ERR_QBUILDER_JOINNOTTABLEORVIEW" xml:space="preserve">
+    <value>Der Typ {0} ist weder Tabelle noch View und kann daher nicht im Join verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_JOINSELECT" xml:space="preserve">
+    <value>Join kann nur für Select angegeben werden</value>
+  </data>
+  <data name="ERR_QBUILDER_NEEDWHERE" xml:space="preserve">
+    <value>{0} kann nur nach einem Where verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_NOTABLEORVIEW" xml:space="preserve">
+    <value>Der Typ {0} ist weder als Tabelle noch als View gekennzeichnet. Der QueryBuilder kann nicht mit dem Typ verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_NOTAVAILABLE" xml:space="preserve">
+    <value>{0} kann nicht nach Select, Insert, Update oder Delete verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_ONLYAFTERWHERE" xml:space="preserve">
+    <value>{0} kann nur nach einem Where verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_THENBYNOTAVAILABLE" xml:space="preserve">
+    <value>ThenBy kann nur nach GroupBy, SortBy, ThenBy oder ThenDescBy verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_THENBYSELECT" xml:space="preserve">
+    <value>ThenBy kann nur für Select angegeben werden</value>
+  </data>
+  <data name="ERR_QBUILDER_TOPRECORDS" xml:space="preserve">
+    <value>Die Anzahl der Datensätze muss &gt; 0 sein</value>
+  </data>
+  <data name="ERR_QBUILDER_TOPSELECT" xml:space="preserve">
+    <value>Top kann nur mit Select verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_TOPWRONGUSE" xml:space="preserve">
+    <value>Top kann nicht mehr als einmal verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_UPDATEFIELDS" xml:space="preserve">
+    <value>Die zu aktualisierenden Felder müssen für Update angegeben werden</value>
+  </data>
+  <data name="ERR_QBUILDER_VALUESMISMATCH" xml:space="preserve">
+    <value>Die Anzahl der Werte stimmt nicht mit der Anzahl der angegebenen Felder überein</value>
+  </data>
+  <data name="ERR_QBUILDER_VALUESWRONGUSE" xml:space="preserve">
+    <value>Werte können nur beim Einfügen oder Aktualisieren angegeben werden</value>
+  </data>
+  <data name="ERR_QBUILDER_WHERESELECT" xml:space="preserve">
+    <value>Wo kann nur nach Select, Update oder Delete verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_WHEREWRONGUSE" xml:space="preserve">
+    <value>Wo kann nicht mehr als einmal in einer Ebene verwendet werden. Verwenden Sie stattdessen And, Or, etc</value>
+  </data>
+  <data name="ERR_QBUILDER_WRONGTYPE" xml:space="preserve">
+    <value>Für den Typ {0} ist keine TypeDescription verfügbar. QueryBuilder kann nicht mit diesem Typ verwendet werden</value>
+  </data>
+  <data name="ERR_QBUILDER_WRONGVIEW" xml:space="preserve">
+    <value>Update oder Delete sind für den Typ {0} nicht verfügbar, da der Typ eine Ansicht darstellt (nur Select ist verfügbar)</value>
+  </data>
+  <data name="ERR_TRANS_WRONGNAME" xml:space="preserve">
+    <value>Name muss mit dem Zeichen # beginnen und enden</value>
+  </data>
+  <data name="ERR_WRONGARRAYTYPE" xml:space="preserve">
+    <value>Falscher Array-Typ. Array muss vom Typ {0} sein.</value>
+  </data>
+  <data name="LBL_EDIT" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="ERR_VALUENOTUNIQUE" xml:space="preserve">
+    <value>{0} wird bereits verwendet, muss aber eindeutig sein.</value>
+  </data>
+  <data name="TXT_NOTSELECTED" xml:space="preserve">
+    <value>&lt;nicht gewählt&gt;</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>ABBRECHEN</value>
+  </data>
+  <data name="BTN_IGNORE" xml:space="preserve">
+    <value>IGNORIEREN</value>
+  </data>
+  <data name="BTN_MORE" xml:space="preserve">
+    <value>MEHR</value>
+  </data>
+  <data name="BTN_NO" xml:space="preserve">
+    <value>NEIN</value>
+  </data>
+  <data name="BTN_RETRY" xml:space="preserve">
+    <value>WIEDERHOLEN</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>SPEICHERN</value>
+  </data>
+  <data name="BTN_YES" xml:space="preserve">
+    <value>JA</value>
+  </data>
+  <data name="BTN_MOVE" xml:space="preserve">
+    <value>VERSCHIEBEN</value>
+  </data>
+  <data name="LBL_TABLE" xml:space="preserve">
+    <value>Tabelle</value>
+  </data>
+  <data name="LBL_VIEW" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ERR_USERSYSTEMNOTALLOWED" xml:space="preserve">
+    <value>Login als Benutzer SYSTEM ist nicht erlaubt.</value>
+  </data>
+  <data name="ERR_EMPTYPASSWORDNOTALLOWED" xml:space="preserve">
+    <value>Das Kennwort darf nicht leer sein.</value>
+  </data>
+  <data name="ERR_NOUSERLOGGEDIN" xml:space="preserve">
+    <value>Es ist kein Benutzer angemeldet.</value>
+  </data>
+  <data name="LBL_ADDFIELD" xml:space="preserve">
+    <value>Neues Feld</value>
+  </data>
+  <data name="TYPE" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="SYS_FOLDER_DESC" xml:space="preserve">
+    <value>Ordner, in dem das Element abgelegt werden soll.</value>
+  </data>
+  <data name="SYS_FOLDER_PLURAL" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="SYS_FOLDER_SINGULAR" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="ERR_CANTBETABLEANDSIBLING" xml:space="preserve">
+    <value>Der Typ darf nicht gleichzeit mit den Attributen AFTable und AFSiblingTable versehen werden.</value>
+  </data>
+  <data name="ERR_MISSINGSIBLINGTYPE" xml:space="preserve">
+    <value>Der Typ, von dem die Tabelle erbt, wurde nicht übergeben (AFSiblingTable.SiblingType).</value>
+  </data>
+  <data name="ERR_UNKNOWNSIBLINGTYPE" xml:space="preserve">
+    <value>Der Typ, von dem die Tabelle erbt, ist unbekannt(AFSiblingTable.SiblingType).</value>
+  </data>
+  <data name="ERR_WRONGSIBLINGTYPE" xml:space="preserve">
+    <value>Der Typ von der die Tabelle erbt, ist beschreibt keine Tabelle (AFSiblingTable.SiblingType).</value>
+  </data>
+  <data name="SYS_ARCHIVED_SINGULAR" xml:space="preserve">
+    <value>archiviert</value>
+  </data>
+</root>
