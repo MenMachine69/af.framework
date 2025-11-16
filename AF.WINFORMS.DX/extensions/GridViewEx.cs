@@ -445,6 +445,7 @@ public static class GridViewEx
                 band = bandview.CreateBand();
                 column = new BandedGridColumn();
                 column.VisibleIndex = band.Columns.Count;
+                bandview.Columns.Add(column);
                 band.Columns.Add((BandedGridColumn)column);
             }
             else

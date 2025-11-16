@@ -4,7 +4,7 @@
 /// Basisklasse für Views, die Standardfelder enthält:
 /// 
 /// SYS_ID          Eindeutiger Schlüssel (aus Primärtabelle)
-/// SYS_AFEATED     Zeitstempel erstellt (aus Primärtabelle)
+/// SYS_CREATED     Zeitstempel erstellt (aus Primärtabelle)
 /// SYS_CHANGED     Zeitstempel letzte Änderung (aus Primärtabelle)
 /// SYS_ARCHIVED    Kennzeichen: wird archiviert (aus Primärtabelle)
 ///
@@ -17,7 +17,7 @@
 public abstract class DefaultView : View
 {
     private Guid _SYS_ID = Guid.Empty;
-    private DateTime _SYS_AFEATED = DateTime.MinValue;
+    private DateTime _SYS_CREATED = DateTime.MinValue;
     private DateTime _SYS_CHANGED = DateTime.MinValue;
     private bool _SYS_ARCHIVED;
 
@@ -36,8 +36,8 @@ public abstract class DefaultView : View
     /// </summary>
     public override DateTime CreateDateTime
     {
-        get => SYS_AFEATED;
-        set => SYS_AFEATED = value;
+        get => SYS_CREATED;
+        set => SYS_CREATED = value;
     }
 
     /// <summary>
@@ -75,13 +75,13 @@ public abstract class DefaultView : View
     /// DateTime angelegt
     /// </summary>
     [AFContext(typeof(CoreStrings))]
-    [AFField(SourceField = "pri.SYS_AFEATED", SystemFieldFlag = eSystemFieldFlag.TimestampCreated)]
+    [AFField(SourceField = "pri.SYS_CREATED", SystemFieldFlag = eSystemFieldFlag.TimestampCreated)]
     [AFBinding(DisplayFormat = "d", ReadOnly = true)]
     [AFGridColumn(DisplayFormat = "d", AllowEdit = false, InStyles = eGridStyle.Full)]
-    public DateTime SYS_AFEATED
+    public DateTime SYS_CREATED
     {
-        get => _SYS_AFEATED;
-        set => Set(ref _SYS_AFEATED, value);
+        get => _SYS_CREATED;
+        set => Set(ref _SYS_CREATED, value);
     }
 
     /// <summary>
@@ -125,7 +125,7 @@ public abstract class DefaultView : View
 /// Basisklasse für Views, die Standardfelder enthält und Ordner unterstützt:
 ///  
 /// SYS_ID          eindeutiger Schlüssel (aus Primärtabelle)
-/// SYS_AFEATED     Zeitstempel erstellt (aus Primärtabelle)
+/// SYS_CREATED     Zeitstempel erstellt (aus Primärtabelle)
 /// SYS_CHANGED     Zeitstempel letzte Änderung (aus Primärtabelle)
 /// SYS_ARCHIVED    Kennzeichen: wird archiviert (aus Primärtabelle)
 /// SYS_FOLDER_ID   ID des Ordners (aus Primärtabelle)

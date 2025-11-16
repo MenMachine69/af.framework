@@ -2266,36 +2266,36 @@ namespace AF.CORE {
         /// <summary>
         ///   Looks up a localized string similar to Der Zeitpunkt, zu dem der Datensatz/das Objekt erstmals in der Datenbank gespeichert wurde..
         /// </summary>
-        public static string SYS_AFEATED_DESC {
+        public static string SYS_CREATED_DESC {
             get {
-                return ResourceManager.GetString("SYS_AFEATED_DESC", resourceCulture);
+                return ResourceManager.GetString("SYS_CREATED_DESC", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Dieser Zeitstempel wird automatisch erstellt, wenn die Daten erstmals in der Datenbank gespeichert werden. Bis zu diesem Zeitpunkt ist der Zeitstempel 01.01.0001..
         /// </summary>
-        public static string SYS_AFEATED_HINT {
+        public static string SYS_CREATED_HINT {
             get {
-                return ResourceManager.GetString("SYS_AFEATED_HINT", resourceCulture);
+                return ResourceManager.GetString("SYS_CREATED_HINT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to erstellt am.
         /// </summary>
-        public static string SYS_AFEATED_PLURAL {
+        public static string SYS_CREATED_PLURAL {
             get {
-                return ResourceManager.GetString("SYS_AFEATED_PLURAL", resourceCulture);
+                return ResourceManager.GetString("SYS_CREATED_PLURAL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to erstellt am.
         /// </summary>
-        public static string SYS_AFEATED_SINGULAR {
+        public static string SYS_CREATED_SINGULAR {
             get {
-                return ResourceManager.GetString("SYS_AFEATED_SINGULAR", resourceCulture);
+                return ResourceManager.GetString("SYS_CREATED_SINGULAR", resourceCulture);
             }
         }
         

@@ -37,7 +37,7 @@ public sealed class AFEditorForm<TModel> : FormBase where TModel : class, IModel
         {
             lblDesc = new()
             {
-                Text = description,
+                Text = description!,
                 Padding = new(10),
                 AutoSizeMode = LabelAutoSizeMode.Vertical,
                 Dock = DockStyle.Top,

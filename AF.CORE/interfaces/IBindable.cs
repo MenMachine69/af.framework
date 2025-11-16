@@ -11,7 +11,7 @@ public interface IBindable : IEditableObject
     /// Kopiert alle Informationen aus der Quelle in das aktuell gebundene Objekt
     /// </summary>
     /// <param name="source">Quelle, aus der kopiert wird</param>
-    /// <param name="keyFields">SYS-Felder ebenfalls kopieren (Bsp.: SYS_ID, SYS_AFEATED usw.)</param>
+    /// <param name="keyFields">SYS-Felder ebenfalls kopieren (Bsp.: SYS_ID, SYS_CREATED usw.)</param>
     void CopyFrom(IBindable source, bool keyFields);
 
     /// <summary>

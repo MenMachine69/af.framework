@@ -4,7 +4,7 @@
 /// Basisklasse für Tabellen, die Standardfelder enthält:
 /// 
 /// SYS_ID          Eindeutiger Schlüssel
-/// SYS_AFEATED     Zeitstempel erstellt
+/// SYS_CREATED     Zeitstempel erstellt
 /// SYS_CHANGED     Zeitstempel letzte Änderung
 /// SYS_ARCHIVED    Kennzeichen: wird archiviert
 ///
@@ -13,7 +13,7 @@
 public abstract class DefaultTable : Table
 {
     private Guid _SYS_ID = Guid.Empty;
-    private DateTime _SYS_AFEATED = DateTime.MinValue;
+    private DateTime _SYS_CREATED = DateTime.MinValue;
     private DateTime _SYS_CHANGED = DateTime.MinValue;
     private bool _SYS_ARCHIVED;
 
@@ -32,8 +32,8 @@ public abstract class DefaultTable : Table
     /// </summary>
     public override DateTime CreateDateTime
     {
-        get => SYS_AFEATED;
-        set => SYS_AFEATED = value;
+        get => SYS_CREATED;
+        set => SYS_CREATED = value;
     }
 
     /// <summary>
@@ -74,10 +74,10 @@ public abstract class DefaultTable : Table
     [AFField(SystemFieldFlag = eSystemFieldFlag.TimestampCreated)]
     [AFBinding(DisplayFormat = "d", ReadOnly = true)]
     [AFGridColumn(DisplayFormat = "d", AllowEdit = false, InStyles = eGridStyle.Full, Visible = false)]
-    public DateTime SYS_AFEATED
+    public DateTime SYS_CREATED
     {
-        get => _SYS_AFEATED;
-        set => Set(ref _SYS_AFEATED, value);
+        get => _SYS_CREATED;
+        set => Set(ref _SYS_CREATED, value);
     }
 
     /// <summary>
@@ -121,7 +121,7 @@ public abstract class DefaultTable : Table
 /// Basisklasse für Tabellen, die Standardfelder enthält und Ordner unterstützt:
 /// 
 /// SYS_ID          Eindeutiger Schlüssel
-/// SYS_AFEATED     Zeitstempel erstellt
+/// SYS_CREATED     Zeitstempel erstellt
 /// SYS_CHANGED     Zeitstempel letzte Änderung
 /// SYS_ARCHIVED    Kennzeichen: wird archiviert
 /// SYS_FOLDER      Name des Ordners

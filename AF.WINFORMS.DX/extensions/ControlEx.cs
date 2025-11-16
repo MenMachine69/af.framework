@@ -831,6 +831,23 @@ public static class ControlsEx
         return edit;
     }
 
+    /// <summary>
+    /// Den AdvancedMode für das Editor-Control einschalten.
+    /// </summary>
+    /// <param name="edit">Control</param>
+    /// <param name="caption">Überswechrift, die im Control angezeigt werden solle</param>
+    /// <returns>das Control</returns>
+    public static BaseEdit AdvancedMode(this BaseEdit edit, string caption)
+    {
+        if (edit.Properties is not RepositoryItemTextEdit settings) return edit;
+
+        settings.UseAdvancedMode = DefaultBoolean.True;
+        settings.AdvancedModeOptions.Label = caption;
+        settings.NullText = " ";
+        settings.NullValuePrompt = " ";
+
+        return edit;
+    }
 
     /// <summary>
     /// Stellt ein LabelControl so ein, dass Texte umgebrochen werden. Die Ausrichtung des Textes ist oben links, die Höhe wist automatisch.
@@ -1048,14 +1065,14 @@ public static class ControlsEx
     }
 
     /// <summary>
-    /// Element zu einem TabPage hinzufügen.
+    /// Control zu einem TabPage hinzufügen.
     /// </summary>
     /// <param name="tabpage">TabPage zu der das Element hinzugefügt wird</param>
     /// <param name="ctrl">Element, das hinzugefügt wird</param>
     /// <param name="dock">DockStyle</param>
     /// <param name="islastelement">ist letztes Element (keinen Splitter hinzufügen)</param>
     /// <returns>das hinzugefügte Element</returns>
-    public static T AddElement<T>(this XtraTabPage tabpage, T ctrl, DockStyle dock, bool islastelement = false) where T : Control
+    public static T AddControl<T>(this XtraTabPage tabpage, T ctrl, DockStyle dock, bool islastelement = false) where T : Control
     {
         ctrl.Dock = dock;
         

@@ -523,16 +523,16 @@ Die Anmeldung war nicht erfolgreich. Die Anmeldung wird abgebrochen.</value>
   <data name="SYS_CHANGED_SINGULAR" xml:space="preserve">
     <value>geändert am</value>
   </data>
-  <data name="SYS_AFEATED_DESC" xml:space="preserve">
+  <data name="SYS_CREATED_DESC" xml:space="preserve">
     <value>Der Zeitpunkt, zu dem der Datensatz/das Objekt erstmals in der Datenbank gespeichert wurde.</value>
   </data>
-  <data name="SYS_AFEATED_HINT" xml:space="preserve">
+  <data name="SYS_CREATED_HINT" xml:space="preserve">
     <value>Dieser Zeitstempel wird automatisch erstellt, wenn die Daten erstmals in der Datenbank gespeichert werden. Bis zu diesem Zeitpunkt ist der Zeitstempel 01.01.0001.</value>
   </data>
-  <data name="SYS_AFEATED_PLURAL" xml:space="preserve">
+  <data name="SYS_CREATED_PLURAL" xml:space="preserve">
     <value>erstellt am</value>
   </data>
-  <data name="SYS_AFEATED_SINGULAR" xml:space="preserve">
+  <data name="SYS_CREATED_SINGULAR" xml:space="preserve">
     <value>erstellt am</value>
   </data>
   <data name="SYS_ID_DESC" xml:space="preserve">

@@ -25,7 +25,7 @@
     <Version>3.0.54</Version>
     <VersionPrefix>3.0.54</VersionPrefix>
     <VersionSuffix>release</VersionSuffix>
-    <PackageOutputPath>..\..\..\Execute\cr3\nuget</PackageOutputPath>
+    <PackageOutputPath>..\..\..\Execute\af\nuget</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
